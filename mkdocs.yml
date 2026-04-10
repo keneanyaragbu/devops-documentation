@@ -1,0 +1,55 @@
+site_name: Kenechukwu DevOps Projects
+site_description: DevOps Engineering Projects & Documentation
+site_author: Anyaragbu Kenechukwu Nnaemeka
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/keneanyaragbu
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/kenechukwu-anyaragbu
+
+nav:
+  - Home: index.md
+  - AWX Project:
+    - Overview: awx/overview.md
+    - Installation: awx/installation.md
+    - Configuration: awx/configuration.md
+    - Troubleshooting: awx/troubleshooting.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
