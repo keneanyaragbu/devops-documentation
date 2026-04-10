@@ -45,6 +45,7 @@ nav:
     - Installation: awx/installation.md
     - Configuration: awx/configuration.md
     - Troubleshooting: awx/troubleshooting.md
+    - Deployment: awx/deployment.md  
 
 markdown_extensions:
   - admonition
